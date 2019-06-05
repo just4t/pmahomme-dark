@@ -16,8 +16,8 @@ Add this settings to your _config.inc.php_ file:
 
 ```conf
 $cfg['ThemeDefault'] = 'pmahomme_dark';
-$cfg['ThemePath']   = './themes';
-$cfg['ThemeManager']    = true;
+$cfg['ThemePath'] = './themes';
+$cfg['ThemeManager'] = true;
 ```
 
 ---
