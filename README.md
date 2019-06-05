@@ -11,10 +11,11 @@ Put the theme folder to your phpMyAdmin/themes folder
 
 Open phpMyAdmin dashboard and change theme to **pmahomme_dark** at *Appearance settings*
 
-### Force default theme by adding this settings to your _config.inc.php_ file (optional)
+### Force default theme (optional)
+Add this settings to your _config.inc.php_ file:
 
 ```conf
-$cfg['ThemeDefault'] = 'pmahmdark';
+$cfg['ThemeDefault'] = 'pmahomme_dark';
 $cfg['ThemePath']   = './themes';
 $cfg['ThemeManager']    = true;
 ```
